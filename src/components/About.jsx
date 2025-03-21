@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt className="xs:w-[200px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.055, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card "
@@ -48,11 +48,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Breaking financial barriers shouldn't be a challenge. At Skyocean, we're
-        making global trade accessible, transparent, and fair for SMEs. With
-        blockchain security and decentralized finance, we empower businesses to
-        thrive without limitations. Join us in reshaping the future of trade
-        finance.
+        Be among the first to experience the future of international trade.
+        Unlock Global Trading Opportunities Skyocean connects SMEs and investors
+        through our blockchain-powered platform, removing traditional barriers
+        to global trade. The journey begins in Jan 2023.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-between">

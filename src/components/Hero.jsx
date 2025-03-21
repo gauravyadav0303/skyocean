@@ -51,44 +51,78 @@ const Hero = () => {
 
         <div className="w-[60%]">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            We are about to <br /> blow your{" "}
-            <span className="text-[#007AFF]">mind!</span>
+            <span className="text-[#007AFF]">Sign up </span>for the MVP.
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Unlocking Global Trade—Fair, Transparent, and Limitless!
           </p>
-          <div className="mt-10">
-            <a href="#" class="c-button c-button--gooey">
-              {" "}
-              View Documentation
-              <div class="c-button__blobs">
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </a>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              version="1.1"
-              style={{ display: "block", height: 0, width: 0 }}
-            >
-              <defs>
-                <filter id="goo">
-                  <feGaussianBlur
-                    in="SourceGraphic"
-                    stdDeviation="10"
-                    result="blur"
-                  ></feGaussianBlur>
-                  <feColorMatrix
-                    in="blur"
-                    mode="matrix"
-                    values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
-                    result="goo"
-                  ></feColorMatrix>
-                  <feBlend in="SourceGraphic" in2="goo"></feBlend>
-                </filter>
-              </defs>
-            </svg>
+          <div className="mt-10 flex flex-row gap-4">
+            <div>
+              <a href="#" class="c-button c-button--gooey">
+                {" "}
+                View Documentation
+                <div class="c-button__blobs">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                style={{ display: "block", height: 0, width: 0 }}
+              >
+                <defs>
+                  <filter id="goo">
+                    <feGaussianBlur
+                      in="SourceGraphic"
+                      stdDeviation="10"
+                      result="blur"
+                    ></feGaussianBlur>
+                    <feColorMatrix
+                      in="blur"
+                      mode="matrix"
+                      values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                      result="goo"
+                    ></feColorMatrix>
+                    <feBlend in="SourceGraphic" in2="goo"></feBlend>
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+            <div>
+              <a href="#contact" class="c-button c-button--gooey">
+                {" "}
+                Sign Up for MVP
+                <div class="c-button__blobs">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                style={{ display: "block", height: 0, width: 0 }}
+              >
+                <defs>
+                  <filter id="goo">
+                    <feGaussianBlur
+                      in="SourceGraphic"
+                      stdDeviation="10"
+                      result="blur"
+                    ></feGaussianBlur>
+                    <feColorMatrix
+                      in="blur"
+                      mode="matrix"
+                      values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                      result="goo"
+                    ></feColorMatrix>
+                    <feBlend in="SourceGraphic" in2="goo"></feBlend>
+                  </filter>
+                </defs>
+              </svg>
+            </div>
           </div>
           <div className="mt-5 text-gray-500">
             Our MVP Launching In:{" "}

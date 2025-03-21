@@ -87,7 +87,7 @@ const experiences = [
     title: "Laying the Foundation for Decentralized Trade",
     icon: company,
     iconBg: "#000000",
-    date: "Sep 2023 – Dec 2023",
+    date: "Jan 2023 – Dec 2023",
     points: [
       "Conducted extensive research on blockchain-driven trade finance.",
       "Built key partnerships, including collaboration with OriginTrail for DKG V8 integration.",
@@ -100,9 +100,10 @@ const experiences = [
     iconBg: "#000000",
     date: "Jan 2024 – Mar 2024",
     points: [
-      "Developed and tested Solidity-based smart contracts for automated trade verification.",
-      "Integrated Polygon’s blockchain to ensure fast, low-cost transactions.",
-      "Established compliance with GS1 & EPCIS trade standards for seamless global adoption.",
+      "Finalized token structure and distribution model.",
+      "Established OriginTrail DKG V8 integration architecture.",
+      "Completed technical project framework and documentation.",
+      "Defined customs system interoperability standards",
     ],
   },
   {

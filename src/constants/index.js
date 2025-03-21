@@ -103,7 +103,7 @@ const experiences = [
       "Finalized token structure and distribution model.",
       "Established OriginTrail DKG V8 integration architecture.",
       "Completed technical project framework and documentation.",
-      "Defined customs system interoperability standards",
+      "Defined customs system interoperability standards.",
     ],
   },
   {

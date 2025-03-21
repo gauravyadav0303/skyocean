@@ -58,7 +58,7 @@ const Hero = () => {
           </p>
           <div className="mt-10 flex flex-row gap-4">
             <div>
-              <a href="#" class="c-button c-button--gooey">
+              <a href="https://docs.skyocean.io/" target="_blank" class="c-button c-button--gooey">
                 {" "}
                 View Documentation
                 <div class="c-button__blobs">

@@ -19,7 +19,7 @@ const Feedbacks = () => {
           </h2>
         </motion.div>
         <div className="flex flex-wrap gap-7 justify-center mt-10">
-          <a href="#" class="c-button c-button--gooey">
+          <a href="https://www.linkedin.com/company/skyocean-io" target="_blank" class="c-button c-button--gooey">
             {" "}
             Follow Us on LinkedIn
             <div class="c-button__blobs">
@@ -50,7 +50,7 @@ const Feedbacks = () => {
               </filter>
             </defs>
           </svg>
-          <a href="#" class="c-button c-button--gooey">
+          <a href="https://x.com/skyoceanit" target="_blank" class="c-button c-button--gooey">
             {" "}
             Follow Us on X
             <div class="c-button__blobs">

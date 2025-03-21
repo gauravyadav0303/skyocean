@@ -40,7 +40,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>
-          A <span class="text-[#007AFF]">New Era of Trade</span> Begins Here.
+          Why Join <span class="text-[#007AFF]">Skyocean?</span>
         </h2>
       </motion.div>
 
@@ -48,10 +48,24 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Be among the first to experience the future of international trade.
-        Unlock Global Trading Opportunities Skyocean connects SMEs and investors
-        through our blockchain-powered platform, removing traditional barriers
-        to global trade. The journey begins in Jan 2023.
+        <span class="text-[#007AFF]">@For Everyone:</span> <br />
+        <ul className="list-disc list-inside">
+          <li>Access global trade opportunities regardless of experience.</li>
+          <li>
+            Experience transparent, secure blockchain-verified transactions.
+          </li>
+          <li>
+            Get access to global trade finance without traditional limitations.
+          </li>
+        </ul>
+          <br />
+          <br />
+        <span class="text-[#007AFF]">@Early Adopters Get:</span> <br />
+        <ul className="list-disc list-inside">
+          <li>Priority platform access.</li>
+          <li>Personalized demo sessions.</li>
+          <li>Input on platform development.</li>
+        </ul>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-between">

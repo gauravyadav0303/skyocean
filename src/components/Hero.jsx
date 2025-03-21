@@ -42,7 +42,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[220px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] md:top-[220px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#007AFF]" />
@@ -56,7 +56,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Unlocking Global Trade—Fair, Transparent, and Limitless!
           </p>
-          <div className="mt-10 flex flex-row gap-4">
+          <div className="mt-10 flex flex-col md:flex-row gap-4">
             <div>
               <a href="https://docs.skyocean.io/" target="_blank" class="c-button c-button--gooey">
                 {" "}
